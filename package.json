@@ -1,0 +1,31 @@
+{
+  "name": "verify-nft-sandstorm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.17.12",
+    "@next/font": "13.1.1",
+    "@solana/pay": "^0.2.4",
+    "@solana/web3.js": "^1.73.0",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "ioredis": "^5.2.4",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "source-dot-env": "^0.1.2",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.1"
+  }
+}
